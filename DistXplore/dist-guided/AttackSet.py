@@ -385,7 +385,8 @@ if __name__ == '__main__':
     
     if args.target != -1:
         if args.pattern == 'single':
-            nes_path = 'single_cluster_seeds/'+ args.type + '/training_100'
+#             nes_path = 'single_cluster_seeds/'+ args.type + '/training_100'
+            nes_path = os.path.join(args.i.split("/")[0], args.i.split("/")[1], args.i.split("/")[2], args.i.split("/")[3])
         else:
             nes_path = 'multi_cluster_seeds/'+ args.type + '/training_100'
         nes_pth_list = os.listdir(nes_path)
