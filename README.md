@@ -1,6 +1,8 @@
 # DistXplore-demo
 The code demo of DistXplore
 
+
+
 ## Installation
 
 We have tested DistXplore based on Python 3.6 on Ubuntu 20.04, theoretically it should also work on other operating systems. To get all the dependencies, it is sufficient to run the following command.
@@ -28,6 +30,7 @@ This directory contains the code of model retrain and retrain model evaluation.
 We provide a script to generate distribution-aware test samples for LeNet4 model trained on MNIST dataset. You can download other models from the google drive mentioned above.
 
 ```
+test
 cd DistXplore/dist-guided
 sh generate_demo.sh
 ```
