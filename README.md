@@ -111,3 +111,7 @@ python mnist_finetune_diversity.py
 ```
 python evaluae.py
 ```
+
+test
+test
+test
