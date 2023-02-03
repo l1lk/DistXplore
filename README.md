@@ -28,7 +28,7 @@ This directory contains the code of model retrain and retrain model evaluation.
 ### Distribution-aware testing
 
 We provide a script to generate distribution-aware test samples for LeNet4 model trained on MNIST dataset. You can download other models from the google drive mentioned above.
-
+test
 ```
 test
 cd DistXplore/dist-guided
