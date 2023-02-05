@@ -5,7 +5,7 @@ The code demo of DistXplore
 
 ## Installation
 
-We have tested DistXplore based on Python 3.6 on Ubuntu 20.04, theoretically it should also work on other operating systems. To get all the dependencies, it is sufficient to run the following command.
+We have tested DistXplore based on Python 3.7 on Ubuntu 20.04, theoretically it should also work on other operating systems. To get all the dependencies, it is sufficient to run the following command.
 
 `pip install -r requirements.txt`
 
