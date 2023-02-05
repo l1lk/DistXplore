@@ -9,11 +9,15 @@ We have tested DistXplore based on Python 3.7 on Ubuntu 20.04, theoretically it 
 
 `pip install -r requirements.txt`
 
+The version of the library 'protobuf' maybe unsuitable, you can run the following command to fix it.
+
+`pip install --upgrade protobuf==3.20`
+
 ## The structure of the repository
 
 ### DistXplore/dis-guided
 
-This directory contains the core implementation of DistXplore, the subdirectory *profile* and *seeds* provides the subject model and initial seeds. (You can download the pretrained model files from https://drive.google.com/drive/folders/1rgZA2xuMLhcYE40u4llWMxqEsew4rbzb?usp=sharing)
+This directory contains the core implementation of DistXplore, the subdirectory *profile* and *seeds* provides the a test subject model and initial seeds. (You can download the other pretrained model files from https://drive.google.com/drive/folders/1rgZA2xuMLhcYE40u4llWMxqEsew4rbzb?usp=sharing)
 
 ### DistXplore/defence
 
@@ -112,6 +116,3 @@ python mnist_finetune_diversity.py
 python evaluae.py
 ```
 
-test
-test
-test
