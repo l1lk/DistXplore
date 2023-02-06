@@ -283,12 +283,11 @@ if __name__ == "__main__":
             # x_adv = np.load("../all_mmd_adv_iter/data_%s_%s_%s.npy"%(gtruth, target, iter))
             # print(x_adv.shape)
             # y_adv = np.load("../all_mmd_adv_iter/ground_truth_%s_%s_%s.npy"%(gtruth, target, iter))
-            x_adv = np.load("/data/c/tianmeng/wlt/all_adv_data/svhn_resnet/pgd/data_%s_%s.npy"%(gtruth, target))
-            y_adv = np.load("/data/c/tianmeng/wlt/all_adv_data/svhn_resnet/pgd/ground_truth_%s_%s.npy"%(gtruth, target))
-            x_adv = np.load("/data/c/tianmeng/wlt/deephunter_4_res/svhn_nbc/data.npy")
-            y_adv = np.load("/data/c/tianmeng/wlt/deephunter_4_res/svhn_nbc/ground_truth.npy")
-            # x_adv = np.load("/data/wlt/distribution-aware-data/defesnse crashes/cifar10/hda/data.npy")
-            # y_adv = np.load("/data/wlt/distribution-aware-data/defesnse crashes/cifar10/hda/ground_truth.npy")
+            x_adv = np.load("/data/c/all_adv_data/svhn_resnet/pgd/data_%s_%s.npy"%(gtruth, target))
+            y_adv = np.load("/data/c/all_adv_data/svhn_resnet/pgd/ground_truth_%s_%s.npy"%(gtruth, target))
+
+            # x_adv = np.load("/data/c/distribution-aware-data/defesnse crashes/cifar10/hda/data.npy")
+            # y_adv = np.load("/data/c/distribution-aware-data/defesnse crashes/cifar10/hda/ground_truth.npy")
             shuffle_index = np.random.permutation(len(x_adv))
             x_adv = x_adv[shuffle_index]
             y_adv = y_adv[shuffle_index]
@@ -328,7 +327,6 @@ if __name__ == "__main__":
             # x_train = x_train / 255.
 
             generate_attack_cost(model, x_adv, y_adv, 'cifar', "JSMA", gtruth, target)
-            break
-        break
+
             
 
