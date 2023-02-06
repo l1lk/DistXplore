@@ -106,6 +106,8 @@ Change the directory of data in get_attack_cost_mnist.py and attack_as_defense_d
 
 ### Enhancement
 
+The data dir and model dir should be set first.
+
 #### retrain model
 
 ```
