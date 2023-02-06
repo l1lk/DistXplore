@@ -200,14 +200,9 @@ if __name__ == "__main__":
     # origin_model = get_svhn_model()
     for adv_tech in ["bim", "pgd", "cw"]:
         origin_model = get_model.svhn_resnet20()
-        # origin_model.load_weights("/data1/wlt/svhn_vgg16_weight.h5")
-        # sgd = SGD(learning_rate=0.1, decay=1e-6, momentum=0.9, nesterov=True)
-        # origin_model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
-        print(origin_model.evaluate(X_test, y_test))
-        # select_data = np.load("/data/c/tianmeng/wlt/select_coverage_data/svhn_resnet/data_%s.npy"%adv_tech)
-        # select_truth = np.load("/data/c/tianmeng/wlt/select_coverage_data/svhn_resnet/ground_truth_%s.npy"%adv_tech)
-        select_data = np.load("/data/c/tianmeng/wlt/dh_retrain_data/svhn_kmnc_data.npy")
-        select_truth = np.load("/data/c/tianmeng/wlt/dh_retrain_data/svhn_kmnc_truth.npy")
+     
+        select_data = np.load("/data/c/dh_retrain_data/svhn_kmnc_data.npy")
+        select_truth = np.load("/data/c/dh_retrain_data/svhn_kmnc_truth.npy")
         select_data = X_train
         select_truth = y_train
     
@@ -218,11 +213,7 @@ if __name__ == "__main__":
         select_truth = select_truth[shuffle_index]
         select_data = select_data[:18900]
         select_truth = select_truth[:18900]
-        # select_data = np.load("/data1/wlt/coverage_select_data_svhn_check/vae/data.npy")
-        # select_truth = np.load("/data1/wlt/coverage_select_data_svhn_check/vae/ground_truth.npy")
-        # select_data = np.load("/data1/wlt/distribution-aware-data/defesnse crashes/svhn/vae/data.npy")
-        # select_truth = np.load("/data1/wlt/distribution-aware-data/defesnse crashes/svhn/vae/ground_truth.npy")
-        # select_truth = select_truth.astype(np.int32)
+
         print(select_data.shape)
         print(np.unique(select_truth))
         print(origin_model.evaluate(svhn_preprocessing(select_data), keras.utils.to_categorical(select_truth,10)))
