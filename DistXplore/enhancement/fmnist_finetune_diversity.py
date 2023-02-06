@@ -2,9 +2,10 @@ import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "3"
 import numpy as np
 import keras
+import tensorflow
 import argparse
 import math
-from keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import get_model
 
 
@@ -100,8 +101,8 @@ if __name__ == "__main__":
         print(np.unique(retrain_data))
         print(retrain_data.shape)
         print(retrain_truth.shape)
-        optimizer = keras.optimizers.SGD(learning_rate=0.05, momentum=0.9)
-        origin_model.compile(loss=keras.losses.sparse_categorical_crossentropy,
+        optimizer = tensorflow.keras.optimizers.SGD(learning_rate=0.05, momentum=0.9)
+        origin_model.compile(loss=tensorflow.keras.losses.sparse_categorical_crossentropy,
                         optimizer=optimizer,
                         metrics=['accuracy'])
 
