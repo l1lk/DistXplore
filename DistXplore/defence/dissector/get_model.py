@@ -14,11 +14,11 @@ from sklearn.metrics import roc_curve, auc
 
 def load_svhn():
 
-    x_train = io.loadmat('/home/dltest/tianmeng/distribution/dataset/train_32x32.mat')['X'] # 73257
-    y_train = io.loadmat('/home/dltest/tianmeng/distribution/dataset/train_32x32.mat')['y']
+    x_train = io.loadmat('/home/distribution/dataset/train_32x32.mat')['X'] # 73257
+    y_train = io.loadmat('/home/distribution/dataset/train_32x32.mat')['y']
 
-    x_test = io.loadmat('/home/dltest/tianmeng/distribution/dataset/test_32x32.mat')['X'] # 26032 
-    y_test = io.loadmat('/home/dltest/tianmeng/distribution/dataset/test_32x32.mat')['y']
+    x_test = io.loadmat('/home/distribution/dataset/test_32x32.mat')['X'] # 26032 
+    y_test = io.loadmat('/home/distribution/dataset/test_32x32.mat')['y']
 
     x_train = np.moveaxis(x_train, -1, 0)
     x_test = np.moveaxis(x_test, -1, 0)
@@ -220,19 +220,19 @@ def resnet_v1(input_shape, depth, num_classes=10):
 
 def mnist_lenet4():
     model = get_lenet4_model()
-    model.load_weights("/data/c/tianmeng/wlt/lenet4_mnist_weights.h5")
+    model.load_weights("/data/c/lenet4_mnist_weights.h5")
     model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
     return model
 
 def fmnist_lenet4():
     model = get_lenet4_model()
-    model.load_weights("/data/c/tianmeng/wlt/lenet4_fmnist_weights.h5")
+    model.load_weights("/data/c/lenet4_fmnist_weights.h5")
     model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
     return model
 
 def cifar_resnet20():
     model = resnet_v1(input_shape=(32,32,3), depth=20)
-    model.load_weights("/data/c/tianmeng/wlt/resnet20_cifar_weights.h5")
+    model.load_weights("/data/c/resnet20_cifar_weights.h5")
     model.compile(loss='categorical_crossentropy',
                 optimizer=Adam(lr=1e-3),
                 metrics=['accuracy'])
@@ -240,7 +240,7 @@ def cifar_resnet20():
 
 def svhn_resnet20():
     model = resnet_v1(input_shape=(32,32,3), depth=20)
-    model.load_weights("/data/c/tianmeng/wlt/resnet20_svhn_weights.h5")
+    model.load_weights("/data/c/resnet20_svhn_weights.h5")
     model.compile(loss='categorical_crossentropy',
                 optimizer=Adam(lr=1e-3),
                 metrics=['accuracy'])
