@@ -278,46 +278,22 @@ if __name__ == "__main__":
             # x_adv = np.load("../all_mmd_adv_iter/data_%s_%s_%s.npy"%(gtruth, target, iter))
             # print(x_adv.shape)
             # y_adv = np.load("../all_mmd_adv_iter/ground_truth_%s_%s_%s.npy"%(gtruth, target, iter))
-            # x_adv = np.load("/data/wlt/distribution-aware-data/defesnse crashes/cifar10/mmd/seed_v1/data_%s_%s.npy"%(gtruth, target))
-            # y_adv = np.load("/data/wlt/distribution-aware-data/defesnse crashes/cifar10/mmd/seed_v1/ground_truth_%s_%s.npy"%(gtruth, target))
-            x_adv = np.load("/data/wlt/distribution-aware-data/defesnse crashes/cifar10/hda/data.npy")
-            y_adv = np.load("/data/wlt/distribution-aware-data/defesnse crashes/cifar10/hda/ground_truth.npy")
+            # x_adv = np.load("/data/distribution-aware-data/defesnse crashes/cifar10/mmd/seed_v1/data_%s_%s.npy"%(gtruth, target))
+            # y_adv = np.load("/data/distribution-aware-data/defesnse crashes/cifar10/mmd/seed_v1/ground_truth_%s_%s.npy"%(gtruth, target))
+            x_adv = np.load("/data/distribution-aware-data/defesnse crashes/cifar10/hda/data.npy")
+            y_adv = np.load("/data/distribution-aware-data/defesnse crashes/cifar10/hda/ground_truth.npy")
             shuffle_index = np.random.permutation(len(x_adv))
             x_adv = x_adv[shuffle_index]
             y_adv = y_adv[shuffle_index]
             x_adv = x_adv[:1000]
             y_adv = y_adv[:1000]
-            # x_adv = np.load("D:/all_adv_data/cifar_cw_3/data_%s_%s.npy"%(gtruth, target))
-            # y_adv = np.load("D:/all_adv_data/cifar_cw_3/ground_truth_%s_%s.npy"%(gtruth, target))
-            # x_adv = np.load("../ga_fm_crash/data_%s_%s.npy"%(gtruth, target))
-            # y_adv = np.load("../ga_fm_crash/ground_truth_%s_%s.npy"%(gtruth, target))
-            # x_adv = np.load("./mnist_distribution_1/mnist_aes_seed_0/class_0/truth_0_0.npy")
-            # y_adv = np.ones(len(x_adv), dtype=np.int32) * 0
+
             print(x_adv.shape)
             print(np.unique(x_adv))
-            # x_adv = np.load("../mmd_ga_mnist_iteration_2/data_0_1_%s.npy"%iteration)
-            # y_adv = np.load("../mmd_ga_mnist_iteration_2/ground_truth_0_1_%s.npy"%iteration)
-            # print(type(x_adv))
-            # x_adv = np.load("../../vgg_mmd_ga_nbc_iter_5000_0/data.npy")
-            # y_adv = np.load("../../vgg_mmd_ga_nbc_iter_5000_0/ground_truth.npy")
-            # print(model.evaluate(x_adv / 255., y_adv))
-            # shuffle_index = np.random.permutation(len(x_adv))
-            # x_adv = x_adv[shuffle_index]
-            # y_adv = y_adv[shuffle_index]
-            # x_adv = x_adv[:300]
-            # y_adv = y_adv[:300]
+
             
             x_adv = cifar_preprocessing(x_adv)
-            # x_adv = x_adv / 255.
-            # print(np.max(x_adv))
-            # print(np.min(x_adv))
-            # x_adv = x_adv / 255.
-            # print(np.unique(x_adv))
-            # (x_train, y_train), _ = keras.datasets.mnist.load_data()
-            # x_train = x_train[:1000]
-            # y_train = y_train[:1000]
-            # x_train = x_train.reshape(-1,28,28,1)
-            # x_train = x_train / 255.
+
 
             generate_attack_cost(model, x_adv, y_adv, 'cifar', "JSMA", gtruth, target)
             break
