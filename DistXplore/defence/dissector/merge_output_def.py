@@ -15,11 +15,11 @@ from sklearn.metrics import roc_curve, auc
 
 def load_svhn():
 
-    x_train = io.loadmat('/home/dltest/tianmeng/distribution/dataset/train_32x32.mat')['X'] # 73257
-    y_train = io.loadmat('/home/dltest/tianmeng/distribution/dataset/train_32x32.mat')['y']
+    x_train = io.loadmat('/home/distribution/dataset/train_32x32.mat')['X'] # 73257
+    y_train = io.loadmat('/home/distribution/dataset/train_32x32.mat')['y']
 
-    x_test = io.loadmat('/home/dltest/tianmeng/distribution/dataset/test_32x32.mat')['X'] # 26032 
-    y_test = io.loadmat('/home/dltest/tianmeng/distribution/dataset/test_32x32.mat')['y']
+    x_test = io.loadmat('/home/distribution/dataset/test_32x32.mat')['X'] # 26032 
+    y_test = io.loadmat('/home/distribution/dataset/test_32x32.mat')['y']
 
     x_train = np.moveaxis(x_train, -1, 0)
     x_test = np.moveaxis(x_test, -1, 0)
@@ -248,37 +248,37 @@ def dissector(data, truth, dataset, model_type, preprocess=True):
     
     if model_type=="lenet4":
         model = get_lenet4_model()
-        model.load_weights("/data/c/tianmeng/wlt/lenet4_%s_weights.h5"%dataset)
+        model.load_weights("/data/c/lenet4_%s_weights.h5"%dataset)
         model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
         y_train = keras.utils.to_categorical(y_train, 10)
         truth = keras.utils.to_categorical(truth, 10)
-        sub_model_dir = "/data/c/tianmeng/wlt/sub_models/%s_lenet4"%dataset
+        sub_model_dir = "/data/c/sub_models/%s_lenet4"%dataset
     elif model_type=="lenet5":
         if dataset=="mnist":
-            model = keras.models.load_model("/data/c/tianmeng/wlt/lenet5_softmax.h5")
+            model = keras.models.load_model("/data/c/lenet5_softmax.h5")
         elif dataset=="fmnist":
-            model = keras.models.load_model("/data/c/tianmeng/wlt/fm_lenet5.h5")
+            model = keras.models.load_model("/data/c/fm_lenet5.h5")
         sub_model_dir = "/data/c/tianmeng/wlt/sub_models/%s_lenet5"%dataset
     elif model_type=="vgg16":
         if dataset=="cifar":
-            model = keras.models.load_model("/data/c/tianmeng/wlt/cifar10_vgg_model.194.h5")
+            model = keras.models.load_model("/data/c/cifar10_vgg_model.194.h5")
         elif dataset=="svhn":
             model = get_svhn_model() 
-            model.load_weights("/data/c/tianmeng/wlt/svhn_vgg16_weight.h5")
+            model.load_weights("/data/c/svhn_vgg16_weight.h5")
             sgd = SGD(learning_rate=0.1, decay=1e-6, momentum=0.9, nesterov=True)
             model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
         y_train = keras.utils.to_categorical(y_train, 10)
         truth = keras.utils.to_categorical(truth, 10)
-        sub_model_dir = "/data/c/tianmeng/wlt/sub_models/%s_vgg16"%dataset
+        sub_model_dir = "/data/c/sub_models/%s_vgg16"%dataset
     elif model_type=="resnet20":
         model = resnet_v1(input_shape=(32,32,3), depth=20)
-        model.load_weights("/data/c/tianmeng/wlt/resnet20_%s_weights.h5"%dataset)
+        model.load_weights("/data/c/resnet20_%s_weights.h5"%dataset)
         model.compile(loss='categorical_crossentropy',
                     optimizer=Adam(lr=1e-3),
                     metrics=['accuracy'])
         y_train = keras.utils.to_categorical(y_train, 10)
         truth = keras.utils.to_categorical(truth, 10)
-        sub_model_dir = "/data/c/tianmeng/wlt/sub_models/%s_resnet20"%dataset
+        sub_model_dir = "/data/c/sub_models/%s_resnet20"%dataset
     print(X_train.shape)
     neg_data = X_train[np.where(y_train==np.unique(truth)[0])[0]]
     neg_truth = y_train[np.where(y_train==np.unique(truth)[0])[0]]
