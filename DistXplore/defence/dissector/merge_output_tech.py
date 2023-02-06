@@ -17,10 +17,10 @@ if __name__ == '__main__':
     mode = args.mode
     tech = args.tech
     print(mode, tech)
-    # crash_save_dir = "/data/wlt/distribution-aware-data/defesnse crashes/mnist/bim/seed_v1"
-    crash_save_dir = "/data/c/tianmeng/wlt/all_adv_data/svhn_resnet/%s"%tech
-    # crash_save_dir = os.path.join("/data/wlt/distribution-aware-data/defesnse crashes", mode, tech)
-    auc_save_dir = "/data/c/tianmeng/wlt/dissector/svhn_%s_resnet"%tech
+
+    crash_save_dir = "/data/c/all_adv_data/svhn_resnet/%s"%tech
+
+    auc_save_dir = "/data/c/dissector/svhn_%s_resnet"%tech
     if not os.path.exists(auc_save_dir):
         os.makedirs(auc_save_dir)
     all_auc_list = []
