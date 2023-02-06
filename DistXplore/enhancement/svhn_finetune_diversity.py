@@ -3,13 +3,14 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 import numpy as np
 import keras
 import argparse
+import tensorflow
 
-from keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
-from keras.models import Sequential
-from keras.layers import InputLayer, Conv2D, Activation, BatchNormalization, Dropout, Dense, MaxPooling2D, Flatten
-from keras import regularizers
-from keras.optimizers import SGD
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import InputLayer, Conv2D, Activation, BatchNormalization, Dropout, Dense, MaxPooling2D, Flatten
+from tensorflow.keras import regularizers
+from tensorflow.keras.optimizers import SGD
 import argparse
 from scipy import io
 import get_model
@@ -234,7 +235,7 @@ if __name__ == "__main__":
         print(np.unique(retrain_data))
         print(retrain_data.shape)
         print(retrain_truth.shape)
-        optimizer = keras.optimizers.SGD(learning_rate=2e-4, decay=1e-6, momentum=0.9, nesterov=True)
+        optimizer = tensorflow.keras.optimizers.SGD(learning_rate=2e-4, decay=1e-6, momentum=0.9, nesterov=True)
         origin_model.compile(loss='categorical_crossentropy',optimizer=optimizer, metrics=['accuracy'])
         origin_model.fit_generator(datagen.flow(retrain_data, retrain_truth,batch_size=128),
                                                     steps_per_epoch = retrain_data.shape[0]//128,
