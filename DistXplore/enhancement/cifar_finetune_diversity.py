@@ -60,14 +60,9 @@ if __name__ == "__main__":
     y_test = keras.utils.to_categorical(y_test)
     for adv_tech in ["bim", "pgd", "cw"]:
         origin_model = get_model.cifar_resnet20()
-        select_data = np.load("/data/c/tianmeng/wlt/select_coverage_data/cifar_resnet/data_%s.npy"%adv_tech)
-        select_truth = np.load("/data/c/tianmeng/wlt/select_coverage_data/cifar_resnet/ground_truth_%s.npy"%adv_tech)
-        # select_data = np.load("/data1/wlt/coverage_select_data_cifar_10_check/bim/data.npy")
-        # select_truth = np.load("/data1/wlt/coverage_select_data_cifar_10_check/bim/ground_truth.npy")
-        # select_data = np.load("/data1/wlt/distribution-aware-data/defesnse crashes/cifar10/hda/data.npy")
-        # select_truth = np.load("/data1/wlt/distribution-aware-data/defesnse crashes/cifar10/hda/ground_truth.npy")
-        # select_data = np.load("/data/c/tianmeng/wlt/dh_retrain_data/cifar_kmnc_data.npy")
-        # select_truth = np.load("/data/c/tianmeng/wlt/dh_retrain_data/cifar_kmnc_truth.npy")
+        select_data = np.load("/data/c/select_coverage_data/cifar_resnet/data_%s.npy"%adv_tech)
+        select_truth = np.load("/data/c/select_coverage_data/cifar_resnet/ground_truth_%s.npy"%adv_tech)
+
         select_data = X_train
         select_truth = y_train
         select_truth = select_truth.astype(np.int32)
