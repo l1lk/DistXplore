@@ -27,14 +27,14 @@ def svhn_preprocessing(x_test):
 score_list = []
 # for model_prefix in ["high_coverage", "bim", "pgd", "cw","kmnc", "nbc"]:
 for model_prefix in ["hda", "vae"]:
-    model = keras.models.load_model("/data/c/tianmeng/wlt/retrain_models/fmnist_lenet4/%s_ft_model_20_all.h5"%model_prefix)
+    model = keras.models.load_model("/data/c/retrain_models/fmnist_lenet4/%s_ft_model_20_all.h5"%model_prefix)
     temp_score_list = []
     for truth in range(10):
         target_list = np.arange(10)
         target_list = np.delete(target_list, truth)
         for target in target_list:
-            temp_data = np.load("/data/c/tianmeng/wlt/evaluate_data/fmnist_lenet4_v2/data_%s_%s.npy"%(truth, target))
-            temp_truth = np.load("/data/c/tianmeng/wlt/evaluate_data/fmnist_lenet4_v2/ground_truth_%s_%s.npy"%(truth, target))
+            temp_data = np.load("/data/c/evaluate_data/fmnist_lenet4_v2/data_%s_%s.npy"%(truth, target))
+            temp_truth = np.load("/data/c/evaluate_data/fmnist_lenet4_v2/ground_truth_%s_%s.npy"%(truth, target))
             temp_data = temp_data /255.
             shuffle_index = np.random.permutation(len(temp_data))
             temp_data =  temp_data[shuffle_index]
@@ -47,4 +47,3 @@ for model_prefix in ["hda", "vae"]:
             temp_score_list.append(score)
     score_list.append(np.average(temp_score_list))
 print(score_list)
-# np.save("/data/c/tianmeng/wlt/enhancement_results/cifar_ga_acc.npy", score_list)
