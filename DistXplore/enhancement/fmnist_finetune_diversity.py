@@ -69,12 +69,9 @@ if __name__ == "__main__":
     # origin_model = keras.models.load_model("/data1/wlt/fm_lenet5.h5")
     for adv_tech in ["bim", "pgd", "cw"]:
         origin_model = get_model.fmnist_lenet4()
-        # select_data = np.load("/data/c/tianmeng/wlt/select_coverage_data/fmnist_lenet4/data_%s.npy"%adv_tech)
-        # select_truth = np.load("/data/c/tianmeng/wlt/select_coverage_data/fmnist_lenet4/ground_truth_%s.npy"%adv_tech)
-        # select_data = np.load("/data1/wlt/distribution-aware-data/defesnse crashes/fmnist/hda/data.npy")
-        # select_truth = np.load("/data1/wlt/distribution-aware-data/defesnse crashes/fmnist/hda/ground_truth.npy")
-        select_data = np.load("/data/c/tianmeng/wlt/dh_retrain_data/fmnist_nbc_data.npy")
-        select_truth = np.load("/data/c/tianmeng/wlt/dh_retrain_data/fmnist_nbc_truth.npy")
+
+        select_data = np.load("/data/c/dh_retrain_data/fmnist_nbc_data.npy")
+        select_truth = np.load("/data/c/dh_retrain_data/fmnist_nbc_truth.npy")
         np.random.seed(2)
         shuffle_index = np.random.permutation(len(select_data))
         select_data = select_data[shuffle_index]
