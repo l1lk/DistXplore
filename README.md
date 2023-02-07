@@ -123,3 +123,58 @@ python mnist_finetune_diversity.py
 python evaluae.py
 ```
 
+
+### Baselines
+
+#### Adversarial Attack
+
+To run adversarial attack baselinse, the required dependencies are listed in baseline/adv/requirements.txt. The seeds are in the single_cluster_seeds.zip. Please set the model dir and seed dir in each python files. 
+
+```
+cd baseline/adv
+sh adv_attack_mnist.sh
+```
+The shell file contains :
+```
+python adv_attack_test_mnist.py -truth 0 -target 1
+```
+**-truth**：the truth label of the seeds
+
+**-target**: the attack target label
+
+#### Deephunter
+
+To run deephunter baselinse, the required dependencies are listed in baseline/deephunter/requirements.txt. The seeds are in the seeds.zip. The MNIST LeNet-5 model is contained. You can download the other models from https://drive.google.com/drive/folders/1rgZA2xuMLhcYE40u4llWMxqEsew4rbzb?usp=sharing.
+
+```
+cd baseline/deephunter/deephunter
+sh deephunter.sh
+```
+The shell file contains :
+```
+python image_fuzzer.py -i ../test_seeds/mmd_ga_seed_svhn 
+-o ./deephunter_outputs/svhn_resnet_ga_kmnc_iter_5000_efficient/outputs_50 
+-model svhn_resnet 
+-criteria kmnc 
+-max_iteration 5000 
+-random 0 
+-select prob 
+-gpu_index 0 
+--save_path ./tmp/svhn_vgg
+
+```
+**-i**：seeds dir
+
+**-o**: output dir
+
+**-model**: model dir
+
+**-criteria**: coverage criteria (KMNC, NBC or SA)
+
+**--save_path**: the dir to save the temp data of SA
+
+After each deephunter generation, to get the prepared test cases, run:
+```
+python prepare_crash_dataset.py
+```
+The dir of model and data should be set first in the python file.
