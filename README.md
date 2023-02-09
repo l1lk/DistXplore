@@ -178,3 +178,6 @@ After each deephunter generation, to get the prepared test cases, run:
 python prepare_crash_dataset.py
 ```
 The dir of model and data should be set first in the python file.
+
+#### HDA & VAE
+Download the model and dataset from https://drive.google.com/drive/folders/1rgZA2xuMLhcYE40u4llWMxqEsew4rbzb?
