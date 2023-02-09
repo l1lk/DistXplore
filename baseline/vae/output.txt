@@ -1,0 +1,767 @@
+
+
+
+*****Running VAE+Baseline test....
+**** Result of VAE+Baseline test:
+No of test inputs generated:  10
+Cumulative coverage for tests:  0.404
+Avg. test generation time: 92 s
+Total time: 921.61 s
+
+
+
+*****Running VAE+Baseline test....
+**** Result of VAE+Baseline test:
+No of test inputs generated:  26
+Cumulative coverage for tests:  0.662
+Avg. test generation time: 23 s
+Total time: 593.7 s
+
+
+
+*****Running VAE+Baseline test....
+**** Result of VAE+Baseline test:
+No of test inputs generated:  27
+Cumulative coverage for tests:  0.698
+Avg. test generation time: 16 s
+Total time: 431.05 s
+
+
+
+*****Running VAE+Baseline test....
+**** Result of VAE+Baseline test:
+No of test inputs generated:  27
+Cumulative coverage for tests:  0.654
+Avg. test generation time: 11 s
+Total time: 296.39 s
+
+
+
+*****Running VAE+Baseline test....
+
+
+
+*****Running VAE+Baseline test....
+
+
+
+*****Running VAE+Baseline test....
+
+
+
+*****Running VAE+Baseline test....
+----------------dense_1-------------------
+
+
+
+*****Running VAE+Baseline test....
+---------------loss2: Tensor("Mean_1:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mean_1:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 dense_1-------------------
+
+
+
+*****Running VAE+Baseline test....
+---------------loss2: Tensor("Mean_1:0", shape=(), dtype=float32)-------------------
+
+
+
+*****Running VAE+Baseline test....
+----------------layer_name3 dense_1-------------------
+---------------loss2: Tensor("Mean_1:0", shape=(), dtype=float32)-------------------
+
+
+
+*****Running VAE+Baseline test....
+----------------layer_name3 dense_1-------------------
+---------------loss2: Tensor("Mean_1:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul:0", shape=(), dtype=float32)-------------------
+
+
+
+*****Running VAE+Baseline test....
+----------------layer_name3 dense_1-------------------
+---------------loss2: Tensor("Mean_1:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul:0", shape=(), dtype=float32)-------------------
+
+
+
+*****Running VAE+Baseline test....
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_1:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul:0", shape=(), dtype=float32)-------------------
+
+
+
+----------------model_layer_dict3 defaultdict(<class 'bool'>, {('conv2d_1', 0): False, ('conv2d_1', 1): False, ('conv2d_1', 2): False, ('conv2d_1', 3): False, ('conv2d_1', 4): False, ('conv2d_1', 5): False, ('max_pooling2d_1', 0): False, ('max_pooling2d_1', 1): False, ('max_pooling2d_1', 2): False, ('max_pooling2d_1', 3): False, ('max_pooling2d_1', 4): False, ('max_pooling2d_1', 5): False, ('conv2d_2', 0): False, ('conv2d_2', 1): False, ('conv2d_2', 2): False, ('conv2d_2', 3): False, ('conv2d_2', 4): False, ('conv2d_2', 5): False, ('conv2d_2', 6): False, ('conv2d_2', 7): False, ('conv2d_2', 8): False, ('conv2d_2', 9): False, ('conv2d_2', 10): False, ('conv2d_2', 11): False, ('conv2d_2', 12): False, ('conv2d_2', 13): False, ('conv2d_2', 14): False, ('conv2d_2', 15): False, ('max_pooling2d_2', 0): False, ('max_pooling2d_2', 1): False, ('max_pooling2d_2', 2): False, ('max_pooling2d_2', 3): False, ('max_pooling2d_2', 4): False, ('max_pooling2d_2', 5): False, ('max_pooling2d_2', 6): False, ('max_pooling2d_2', 7): False, ('max_pooling2d_2', 8): False, ('max_pooling2d_2', 9): False, ('max_pooling2d_2', 10): False, ('max_pooling2d_2', 11): False, ('max_pooling2d_2', 12): False, ('max_pooling2d_2', 13): False, ('max_pooling2d_2', 14): False, ('max_pooling2d_2', 15): False, ('dense_1', 0): False, ('dense_1', 1): False, ('dense_1', 2): False, ('dense_1', 3): False, ('dense_1', 4): False, ('dense_1', 5): False, ('dense_1', 6): False, ('dense_1', 7): False, ('dense_1', 8): False, ('dense_1', 9): False, ('dense_1', 10): False, ('dense_1', 11): False, ('dense_1', 12): False, ('dense_1', 13): False, ('dense_1', 14): False, ('dense_1', 15): False, ('dense_1', 16): False, ('dense_1', 17): False, ('dense_1', 18): False, ('dense_1', 19): False, ('dense_1', 20): False, ('dense_1', 21): False, ('dense_1', 22): False, ('dense_1', 23): False, ('dense_1', 24): False, ('dense_1', 25): False, ('dense_1', 26): False, ('dense_1', 27): False, ('dense_1', 28): False, ('dense_1', 29): False, ('dense_1', 30): False, ('dense_1', 31): False, ('dense_1', 32): False, ('dense_1', 33): False, ('dense_1', 34): False, ('dense_1', 35): False, ('dense_1', 36): False, ('dense_1', 37): False, ('dense_1', 38): False, ('dense_1', 39): False, ('dense_1', 40): False, ('dense_1', 41): False, ('dense_1', 42): False, ('dense_1', 43): False, ('dense_1', 44): False, ('dense_1', 45): False, ('dense_1', 46): False, ('dense_1', 47): False, ('dense_1', 48): False, ('dense_1', 49): False, ('dense_1', 50): False, ('dense_1', 51): False, ('dense_1', 52): False, ('dense_1', 53): False, ('dense_1', 54): False, ('dense_1', 55): False, ('dense_1', 56): False, ('dense_1', 57): False, ('dense_1', 58): False, ('dense_1', 59): False, ('dense_1', 60): False, ('dense_1', 61): False, ('dense_1', 62): False, ('dense_1', 63): False, ('dense_1', 64): False, ('dense_1', 65): False, ('dense_1', 66): False, ('dense_1', 67): False, ('dense_1', 68): False, ('dense_1', 69): False, ('dense_1', 70): False, ('dense_1', 71): False, ('dense_1', 72): False, ('dense_1', 73): False, ('dense_1', 74): False, ('dense_1', 75): False, ('dense_1', 76): False, ('dense_1', 77): False, ('dense_1', 78): False, ('dense_1', 79): False, ('dense_1', 80): False, ('dense_1', 81): False, ('dense_1', 82): False, ('dense_1', 83): False, ('dense_1', 84): False, ('dense_1', 85): False, ('dense_1', 86): False, ('dense_1', 87): False, ('dense_1', 88): False, ('dense_1', 89): False, ('dense_1', 90): False, ('dense_1', 91): False, ('dense_1', 92): False, ('dense_1', 93): False, ('dense_1', 94): False, ('dense_1', 95): False, ('dense_1', 96): False, ('dense_1', 97): False, ('dense_1', 98): False, ('dense_1', 99): False, ('dense_1', 100): False, ('dense_1', 101): False, ('dense_1', 102): False, ('dense_1', 103): False, ('dense_1', 104): False, ('dense_1', 105): False, ('dense_1', 106): False, ('dense_1', 107): False, ('dense_1', 108): False, ('dense_1', 109): False, ('dense_1', 110): False, ('dense_1', 111): False, ('dense_1', 112): False, ('dense_1', 113): False, ('dense_1', 114): False, ('dense_1', 115): False, ('dense_1', 116): False, ('dense_1', 117): False, ('dense_1', 118): False, ('dense_1', 119): False, ('dense_2', 0): False, ('dense_2', 1): False, ('dense_2', 2): False, ('dense_2', 3): False, ('dense_2', 4): False, ('dense_2', 5): False, ('dense_2', 6): False, ('dense_2', 7): False, ('dense_2', 8): False, ('dense_2', 9): False, ('dense_2', 10): False, ('dense_2', 11): False, ('dense_2', 12): False, ('dense_2', 13): False, ('dense_2', 14): False, ('dense_2', 15): False, ('dense_2', 16): False, ('dense_2', 17): False, ('dense_2', 18): False, ('dense_2', 19): False, ('dense_2', 20): False, ('dense_2', 21): False, ('dense_2', 22): False, ('dense_2', 23): False, ('dense_2', 24): False, ('dense_2', 25): False, ('dense_2', 26): False, ('dense_2', 27): False, ('dense_2', 28): False, ('dense_2', 29): False, ('dense_2', 30): False, ('dense_2', 31): False, ('dense_2', 32): False, ('dense_2', 33): False, ('dense_2', 34): False, ('dense_2', 35): False, ('dense_2', 36): False, ('dense_2', 37): False, ('dense_2', 38): False, ('dense_2', 39): False, ('dense_2', 40): False, ('dense_2', 41): False, ('dense_2', 42): False, ('dense_2', 43): False, ('dense_2', 44): False, ('dense_2', 45): False, ('dense_2', 46): False, ('dense_2', 47): False, ('dense_2', 48): False, ('dense_2', 49): False, ('dense_2', 50): False, ('dense_2', 51): False, ('dense_2', 52): False, ('dense_2', 53): False, ('dense_2', 54): False, ('dense_2', 55): False, ('dense_2', 56): False, ('dense_2', 57): False, ('dense_2', 58): False, ('dense_2', 59): False, ('dense_2', 60): False, ('dense_2', 61): False, ('dense_2', 62): False, ('dense_2', 63): False, ('dense_2', 64): False, ('dense_2', 65): False, ('dense_2', 66): False, ('dense_2', 67): False, ('dense_2', 68): False, ('dense_2', 69): False, ('dense_2', 70): False, ('dense_2', 71): False, ('dense_2', 72): False, ('dense_2', 73): False, ('dense_2', 74): False, ('dense_2', 75): False, ('dense_2', 76): False, ('dense_2', 77): False, ('dense_2', 78): False, ('dense_2', 79): False, ('dense_2', 80): False, ('dense_2', 81): False, ('dense_2', 82): False, ('dense_2', 83): False, ('dense_3', 0): False, ('dense_3', 1): False, ('dense_3', 2): False, ('dense_3', 3): False, ('dense_3', 4): False, ('dense_3', 5): False, ('dense_3', 6): False, ('dense_3', 7): False, ('dense_3', 8): False, ('dense_3', 9): False, ('activation_1', 0): False, ('activation_1', 1): False, ('activation_1', 2): False, ('activation_1', 3): False, ('activation_1', 4): False, ('activation_1', 5): False, ('activation_1', 6): False, ('activation_1', 7): False, ('activation_1', 8): False, ('activation_1', 9): False})-------------------
+*****Running VAE+Baseline test....
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_1:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul:0", shape=(), dtype=float32)-------------------
+
+
+
+
+
+
+----------------model_layer_dict3 defaultdict(<class 'bool'>, {('conv2d_1', 0): False, ('conv2d_1', 1): False, ('conv2d_1', 2): False, ('conv2d_1', 3): False, ('conv2d_1', 4): False, ('conv2d_1', 5): False, ('max_pooling2d_1', 0): False, ('max_pooling2d_1', 1): False, ('max_pooling2d_1', 2): False, ('max_pooling2d_1', 3): False, ('max_pooling2d_1', 4): False, ('max_pooling2d_1', 5): False, ('conv2d_2', 0): False, ('conv2d_2', 1): False, ('conv2d_2', 2): False, ('conv2d_2', 3): False, ('conv2d_2', 4): False, ('conv2d_2', 5): False, ('conv2d_2', 6): False, ('conv2d_2', 7): False, ('conv2d_2', 8): False, ('conv2d_2', 9): False, ('conv2d_2', 10): False, ('conv2d_2', 11): False, ('conv2d_2', 12): False, ('conv2d_2', 13): False, ('conv2d_2', 14): False, ('conv2d_2', 15): False, ('max_pooling2d_2', 0): False, ('max_pooling2d_2', 1): False, ('max_pooling2d_2', 2): False, ('max_pooling2d_2', 3): False, ('max_pooling2d_2', 4): False, ('max_pooling2d_2', 5): False, ('max_pooling2d_2', 6): False, ('max_pooling2d_2', 7): False, ('max_pooling2d_2', 8): False, ('max_pooling2d_2', 9): False, ('max_pooling2d_2', 10): False, ('max_pooling2d_2', 11): False, ('max_pooling2d_2', 12): False, ('max_pooling2d_2', 13): False, ('max_pooling2d_2', 14): False, ('max_pooling2d_2', 15): False, ('dense_1', 0): False, ('dense_1', 1): False, ('dense_1', 2): False, ('dense_1', 3): False, ('dense_1', 4): False, ('dense_1', 5): False, ('dense_1', 6): False, ('dense_1', 7): False, ('dense_1', 8): False, ('dense_1', 9): False, ('dense_1', 10): False, ('dense_1', 11): False, ('dense_1', 12): False, ('dense_1', 13): False, ('dense_1', 14): False, ('dense_1', 15): False, ('dense_1', 16): False, ('dense_1', 17): False, ('dense_1', 18): False, ('dense_1', 19): False, ('dense_1', 20): False, ('dense_1', 21): False, ('dense_1', 22): False, ('dense_1', 23): False, ('dense_1', 24): False, ('dense_1', 25): False, ('dense_1', 26): False, ('dense_1', 27): False, ('dense_1', 28): False, ('dense_1', 29): False, ('dense_1', 30): False, ('dense_1', 31): False, ('dense_1', 32): False, ('dense_1', 33): False, ('dense_1', 34): False, ('dense_1', 35): False, ('dense_1', 36): False, ('dense_1', 37): False, ('dense_1', 38): False, ('dense_1', 39): False, ('dense_1', 40): False, ('dense_1', 41): False, ('dense_1', 42): False, ('dense_1', 43): False, ('dense_1', 44): False, ('dense_1', 45): False, ('dense_1', 46): False, ('dense_1', 47): False, ('dense_1', 48): False, ('dense_1', 49): False, ('dense_1', 50): False, ('dense_1', 51): False, ('dense_1', 52): False, ('dense_1', 53): False, ('dense_1', 54): False, ('dense_1', 55): False, ('dense_1', 56): False, ('dense_1', 57): False, ('dense_1', 58): False, ('dense_1', 59): False, ('dense_1', 60): False, ('dense_1', 61): False, ('dense_1', 62): False, ('dense_1', 63): False, ('dense_1', 64): False, ('dense_1', 65): False, ('dense_1', 66): False, ('dense_1', 67): False, ('dense_1', 68): False, ('dense_1', 69): False, ('dense_1', 70): False, ('dense_1', 71): False, ('dense_1', 72): False, ('dense_1', 73): False, ('dense_1', 74): False, ('dense_1', 75): False, ('dense_1', 76): False, ('dense_1', 77): False, ('dense_1', 78): False, ('dense_1', 79): False, ('dense_1', 80): False, ('dense_1', 81): False, ('dense_1', 82): False, ('dense_1', 83): False, ('dense_1', 84): False, ('dense_1', 85): False, ('dense_1', 86): False, ('dense_1', 87): False, ('dense_1', 88): False, ('dense_1', 89): False, ('dense_1', 90): False, ('dense_1', 91): False, ('dense_1', 92): False, ('dense_1', 93): False, ('dense_1', 94): False, ('dense_1', 95): False, ('dense_1', 96): False, ('dense_1', 97): False, ('dense_1', 98): False, ('dense_1', 99): False, ('dense_1', 100): False, ('dense_1', 101): False, ('dense_1', 102): False, ('dense_1', 103): False, ('dense_1', 104): False, ('dense_1', 105): False, ('dense_1', 106): False, ('dense_1', 107): False, ('dense_1', 108): False, ('dense_1', 109): False, ('dense_1', 110): False, ('dense_1', 111): False, ('dense_1', 112): False, ('dense_1', 113): False, ('dense_1', 114): False, ('dense_1', 115): False, ('dense_1', 116): False, ('dense_1', 117): False, ('dense_1', 118): False, ('dense_1', 119): False, ('dense_2', 0): False, ('dense_2', 1): False, ('dense_2', 2): False, ('dense_2', 3): False, ('dense_2', 4): False, ('dense_2', 5): False, ('dense_2', 6): False, ('dense_2', 7): False, ('dense_2', 8): False, ('dense_2', 9): False, ('dense_2', 10): False, ('dense_2', 11): False, ('dense_2', 12): False, ('dense_2', 13): False, ('dense_2', 14): False, ('dense_2', 15): False, ('dense_2', 16): False, ('dense_2', 17): False, ('dense_2', 18): False, ('dense_2', 19): False, ('dense_2', 20): False, ('dense_2', 21): False, ('dense_2', 22): False, ('dense_2', 23): False, ('dense_2', 24): False, ('dense_2', 25): False, ('dense_2', 26): False, ('dense_2', 27): False, ('dense_2', 28): False, ('dense_2', 29): False, ('dense_2', 30): False, ('dense_2', 31): False, ('dense_2', 32): False, ('dense_2', 33): False, ('dense_2', 34): False, ('dense_2', 35): False, ('dense_2', 36): False, ('dense_2', 37): False, ('dense_2', 38): False, ('dense_2', 39): False, ('dense_2', 40): False, ('dense_2', 41): False, ('dense_2', 42): False, ('dense_2', 43): False, ('dense_2', 44): False, ('dense_2', 45): False, ('dense_2', 46): False, ('dense_2', 47): False, ('dense_2', 48): False, ('dense_2', 49): False, ('dense_2', 50): False, ('dense_2', 51): False, ('dense_2', 52): False, ('dense_2', 53): False, ('dense_2', 54): False, ('dense_2', 55): False, ('dense_2', 56): False, ('dense_2', 57): False, ('dense_2', 58): False, ('dense_2', 59): False, ('dense_2', 60): False, ('dense_2', 61): False, ('dense_2', 62): False, ('dense_2', 63): False, ('dense_2', 64): False, ('dense_2', 65): False, ('dense_2', 66): False, ('dense_2', 67): False, ('dense_2', 68): False, ('dense_2', 69): False, ('dense_2', 70): False, ('dense_2', 71): False, ('dense_2', 72): False, ('dense_2', 73): False, ('dense_2', 74): False, ('dense_2', 75): False, ('dense_2', 76): False, ('dense_2', 77): False, ('dense_2', 78): False, ('dense_2', 79): False, ('dense_2', 80): False, ('dense_2', 81): False, ('dense_2', 82): False, ('dense_2', 83): False, ('dense_3', 0): False, ('dense_3', 1): False, ('dense_3', 2): False, ('dense_3', 3): False, ('dense_3', 4): False, ('dense_3', 5): False, ('dense_3', 6): False, ('dense_3', 7): False, ('dense_3', 8): False, ('dense_3', 9): False, ('activation_1', 0): False, ('activation_1', 1): False, ('activation_1', 2): False, ('activation_1', 3): False, ('activation_1', 4): False, ('activation_1', 5): False, ('activation_1', 6): False, ('activation_1', 7): False, ('activation_1', 8): False, ('activation_1', 9): False})-------------------
+*****Running VAE+Baseline test....
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_1:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul:0", shape=(), dtype=float32)-------------------
+
+
+
+----------------model_layer_dict3 defaultdict(<class 'bool'>, {('conv2d_1', 0): False, ('conv2d_1', 1): False, ('conv2d_1', 2): False, ('conv2d_1', 3): False, ('conv2d_1', 4): False, ('conv2d_1', 5): False, ('max_pooling2d_1', 0): False, ('max_pooling2d_1', 1): False, ('max_pooling2d_1', 2): False, ('max_pooling2d_1', 3): False, ('max_pooling2d_1', 4): False, ('max_pooling2d_1', 5): False, ('conv2d_2', 0): False, ('conv2d_2', 1): False, ('conv2d_2', 2): False, ('conv2d_2', 3): False, ('conv2d_2', 4): False, ('conv2d_2', 5): False, ('conv2d_2', 6): False, ('conv2d_2', 7): False, ('conv2d_2', 8): False, ('conv2d_2', 9): False, ('conv2d_2', 10): False, ('conv2d_2', 11): False, ('conv2d_2', 12): False, ('conv2d_2', 13): False, ('conv2d_2', 14): False, ('conv2d_2', 15): False, ('max_pooling2d_2', 0): False, ('max_pooling2d_2', 1): False, ('max_pooling2d_2', 2): False, ('max_pooling2d_2', 3): False, ('max_pooling2d_2', 4): False, ('max_pooling2d_2', 5): False, ('max_pooling2d_2', 6): False, ('max_pooling2d_2', 7): False, ('max_pooling2d_2', 8): False, ('max_pooling2d_2', 9): False, ('max_pooling2d_2', 10): False, ('max_pooling2d_2', 11): False, ('max_pooling2d_2', 12): False, ('max_pooling2d_2', 13): False, ('max_pooling2d_2', 14): False, ('max_pooling2d_2', 15): False, ('dense_1', 0): False, ('dense_1', 1): False, ('dense_1', 2): False, ('dense_1', 3): False, ('dense_1', 4): False, ('dense_1', 5): False, ('dense_1', 6): False, ('dense_1', 7): False, ('dense_1', 8): False, ('dense_1', 9): False, ('dense_1', 10): False, ('dense_1', 11): False, ('dense_1', 12): False, ('dense_1', 13): False, ('dense_1', 14): False, ('dense_1', 15): False, ('dense_1', 16): False, ('dense_1', 17): False, ('dense_1', 18): False, ('dense_1', 19): False, ('dense_1', 20): False, ('dense_1', 21): False, ('dense_1', 22): False, ('dense_1', 23): False, ('dense_1', 24): False, ('dense_1', 25): False, ('dense_1', 26): False, ('dense_1', 27): False, ('dense_1', 28): False, ('dense_1', 29): False, ('dense_1', 30): False, ('dense_1', 31): False, ('dense_1', 32): False, ('dense_1', 33): False, ('dense_1', 34): False, ('dense_1', 35): False, ('dense_1', 36): False, ('dense_1', 37): False, ('dense_1', 38): False, ('dense_1', 39): False, ('dense_1', 40): False, ('dense_1', 41): False, ('dense_1', 42): False, ('dense_1', 43): False, ('dense_1', 44): False, ('dense_1', 45): False, ('dense_1', 46): False, ('dense_1', 47): False, ('dense_1', 48): False, ('dense_1', 49): False, ('dense_1', 50): False, ('dense_1', 51): False, ('dense_1', 52): False, ('dense_1', 53): False, ('dense_1', 54): False, ('dense_1', 55): False, ('dense_1', 56): False, ('dense_1', 57): False, ('dense_1', 58): False, ('dense_1', 59): False, ('dense_1', 60): False, ('dense_1', 61): False, ('dense_1', 62): False, ('dense_1', 63): False, ('dense_1', 64): False, ('dense_1', 65): False, ('dense_1', 66): False, ('dense_1', 67): False, ('dense_1', 68): False, ('dense_1', 69): False, ('dense_1', 70): False, ('dense_1', 71): False, ('dense_1', 72): False, ('dense_1', 73): False, ('dense_1', 74): False, ('dense_1', 75): False, ('dense_1', 76): False, ('dense_1', 77): False, ('dense_1', 78): False, ('dense_1', 79): False, ('dense_1', 80): False, ('dense_1', 81): False, ('dense_1', 82): False, ('dense_1', 83): False, ('dense_1', 84): False, ('dense_1', 85): False, ('dense_1', 86): False, ('dense_1', 87): False, ('dense_1', 88): False, ('dense_1', 89): False, ('dense_1', 90): False, ('dense_1', 91): False, ('dense_1', 92): False, ('dense_1', 93): False, ('dense_1', 94): False, ('dense_1', 95): False, ('dense_1', 96): False, ('dense_1', 97): False, ('dense_1', 98): False, ('dense_1', 99): False, ('dense_1', 100): False, ('dense_1', 101): False, ('dense_1', 102): False, ('dense_1', 103): False, ('dense_1', 104): False, ('dense_1', 105): False, ('dense_1', 106): False, ('dense_1', 107): False, ('dense_1', 108): False, ('dense_1', 109): False, ('dense_1', 110): False, ('dense_1', 111): False, ('dense_1', 112): False, ('dense_1', 113): False, ('dense_1', 114): False, ('dense_1', 115): False, ('dense_1', 116): False, ('dense_1', 117): False, ('dense_1', 118): False, ('dense_1', 119): False, ('dense_2', 0): False, ('dense_2', 1): False, ('dense_2', 2): False, ('dense_2', 3): False, ('dense_2', 4): False, ('dense_2', 5): False, ('dense_2', 6): False, ('dense_2', 7): False, ('dense_2', 8): False, ('dense_2', 9): False, ('dense_2', 10): False, ('dense_2', 11): False, ('dense_2', 12): False, ('dense_2', 13): False, ('dense_2', 14): False, ('dense_2', 15): False, ('dense_2', 16): False, ('dense_2', 17): False, ('dense_2', 18): False, ('dense_2', 19): False, ('dense_2', 20): False, ('dense_2', 21): False, ('dense_2', 22): False, ('dense_2', 23): False, ('dense_2', 24): False, ('dense_2', 25): False, ('dense_2', 26): False, ('dense_2', 27): False, ('dense_2', 28): False, ('dense_2', 29): False, ('dense_2', 30): False, ('dense_2', 31): False, ('dense_2', 32): False, ('dense_2', 33): False, ('dense_2', 34): False, ('dense_2', 35): False, ('dense_2', 36): False, ('dense_2', 37): False, ('dense_2', 38): False, ('dense_2', 39): False, ('dense_2', 40): False, ('dense_2', 41): False, ('dense_2', 42): False, ('dense_2', 43): False, ('dense_2', 44): False, ('dense_2', 45): False, ('dense_2', 46): False, ('dense_2', 47): False, ('dense_2', 48): False, ('dense_2', 49): False, ('dense_2', 50): False, ('dense_2', 51): False, ('dense_2', 52): False, ('dense_2', 53): False, ('dense_2', 54): False, ('dense_2', 55): False, ('dense_2', 56): False, ('dense_2', 57): False, ('dense_2', 58): False, ('dense_2', 59): False, ('dense_2', 60): False, ('dense_2', 61): False, ('dense_2', 62): False, ('dense_2', 63): False, ('dense_2', 64): False, ('dense_2', 65): False, ('dense_2', 66): False, ('dense_2', 67): False, ('dense_2', 68): False, ('dense_2', 69): False, ('dense_2', 70): False, ('dense_2', 71): False, ('dense_2', 72): False, ('dense_2', 73): False, ('dense_2', 74): False, ('dense_2', 75): False, ('dense_2', 76): False, ('dense_2', 77): False, ('dense_2', 78): False, ('dense_2', 79): False, ('dense_2', 80): False, ('dense_2', 81): False, ('dense_2', 82): False, ('dense_2', 83): False, ('dense_3', 0): False, ('dense_3', 1): False, ('dense_3', 2): False, ('dense_3', 3): False, ('dense_3', 4): False, ('dense_3', 5): False, ('dense_3', 6): False, ('dense_3', 7): False, ('dense_3', 8): False, ('dense_3', 9): False, ('activation_1', 0): False, ('activation_1', 1): False, ('activation_1', 2): False, ('activation_1', 3): False, ('activation_1', 4): False, ('activation_1', 5): False, ('activation_1', 6): False, ('activation_1', 7): False, ('activation_1', 8): False, ('activation_1', 9): False})-------------------
+*****Running VAE+Baseline test....
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_1:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_9:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_4:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_17:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_8:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_25:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_12:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_33:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_16:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_41:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_20:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_49:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_24:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_57:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_28:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_65:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_32:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_73:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_36:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_81:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_40:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_89:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_44:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_97:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_48:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_105:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_52:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_113:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_56:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_121:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_60:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_129:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_64:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_137:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_68:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_145:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_72:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_153:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_76:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_161:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_80:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_169:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_84:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_177:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_88:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_185:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_92:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_193:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_96:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_201:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_100:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_209:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_104:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_217:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_108:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_225:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_112:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_233:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_116:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_241:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_120:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_249:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_124:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_257:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_128:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_265:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_132:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_273:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_136:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_281:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_140:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_289:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_144:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_297:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_148:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_305:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_152:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_313:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_156:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_321:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_160:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_329:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_164:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_337:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_168:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_345:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_172:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_353:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_176:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_361:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_180:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_369:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_184:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_377:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_188:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_385:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_192:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_393:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_196:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_401:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_200:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_409:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_204:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_417:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_208:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_425:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_212:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_433:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_216:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_441:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_220:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_449:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_224:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_457:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_228:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_465:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_232:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_473:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_236:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_481:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_240:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_489:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_244:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_497:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_248:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_505:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_252:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_513:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_256:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_521:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_260:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_529:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_264:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_537:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_268:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_545:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_272:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_553:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_276:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_561:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_280:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_569:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_284:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_577:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_288:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_585:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_292:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_593:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_296:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_601:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_300:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_609:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_304:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_617:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_308:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_625:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_312:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_633:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_316:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_641:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_320:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_649:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_324:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_657:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_328:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_665:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_332:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_673:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_336:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_681:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_340:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_689:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_344:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_697:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_348:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_705:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_352:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_713:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_356:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_721:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_360:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_729:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_364:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_737:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_368:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_745:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_372:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_753:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_376:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_761:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_380:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_769:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_384:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_777:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_388:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_785:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_392:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_793:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_396:0", shape=(), dtype=float32)-------------------
+
+
+
+----------------model_layer_dict3 defaultdict(<class 'bool'>, {('conv2d_1', 0): False, ('conv2d_1', 1): False, ('conv2d_1', 2): False, ('conv2d_1', 3): False, ('conv2d_1', 4): False, ('conv2d_1', 5): False, ('max_pooling2d_1', 0): False, ('max_pooling2d_1', 1): False, ('max_pooling2d_1', 2): False, ('max_pooling2d_1', 3): False, ('max_pooling2d_1', 4): False, ('max_pooling2d_1', 5): False, ('conv2d_2', 0): False, ('conv2d_2', 1): False, ('conv2d_2', 2): False, ('conv2d_2', 3): False, ('conv2d_2', 4): False, ('conv2d_2', 5): False, ('conv2d_2', 6): False, ('conv2d_2', 7): False, ('conv2d_2', 8): False, ('conv2d_2', 9): False, ('conv2d_2', 10): False, ('conv2d_2', 11): False, ('conv2d_2', 12): False, ('conv2d_2', 13): False, ('conv2d_2', 14): False, ('conv2d_2', 15): False, ('max_pooling2d_2', 0): False, ('max_pooling2d_2', 1): False, ('max_pooling2d_2', 2): False, ('max_pooling2d_2', 3): False, ('max_pooling2d_2', 4): False, ('max_pooling2d_2', 5): False, ('max_pooling2d_2', 6): False, ('max_pooling2d_2', 7): False, ('max_pooling2d_2', 8): False, ('max_pooling2d_2', 9): False, ('max_pooling2d_2', 10): False, ('max_pooling2d_2', 11): False, ('max_pooling2d_2', 12): False, ('max_pooling2d_2', 13): False, ('max_pooling2d_2', 14): False, ('max_pooling2d_2', 15): False, ('dense_1', 0): False, ('dense_1', 1): False, ('dense_1', 2): False, ('dense_1', 3): False, ('dense_1', 4): False, ('dense_1', 5): False, ('dense_1', 6): False, ('dense_1', 7): False, ('dense_1', 8): False, ('dense_1', 9): False, ('dense_1', 10): False, ('dense_1', 11): False, ('dense_1', 12): False, ('dense_1', 13): False, ('dense_1', 14): False, ('dense_1', 15): False, ('dense_1', 16): False, ('dense_1', 17): False, ('dense_1', 18): False, ('dense_1', 19): False, ('dense_1', 20): False, ('dense_1', 21): False, ('dense_1', 22): False, ('dense_1', 23): False, ('dense_1', 24): False, ('dense_1', 25): False, ('dense_1', 26): False, ('dense_1', 27): False, ('dense_1', 28): False, ('dense_1', 29): False, ('dense_1', 30): False, ('dense_1', 31): False, ('dense_1', 32): False, ('dense_1', 33): False, ('dense_1', 34): False, ('dense_1', 35): False, ('dense_1', 36): False, ('dense_1', 37): False, ('dense_1', 38): False, ('dense_1', 39): False, ('dense_1', 40): False, ('dense_1', 41): False, ('dense_1', 42): False, ('dense_1', 43): False, ('dense_1', 44): False, ('dense_1', 45): False, ('dense_1', 46): False, ('dense_1', 47): False, ('dense_1', 48): False, ('dense_1', 49): False, ('dense_1', 50): False, ('dense_1', 51): False, ('dense_1', 52): False, ('dense_1', 53): False, ('dense_1', 54): False, ('dense_1', 55): False, ('dense_1', 56): False, ('dense_1', 57): False, ('dense_1', 58): False, ('dense_1', 59): False, ('dense_1', 60): False, ('dense_1', 61): False, ('dense_1', 62): False, ('dense_1', 63): False, ('dense_1', 64): False, ('dense_1', 65): False, ('dense_1', 66): False, ('dense_1', 67): False, ('dense_1', 68): False, ('dense_1', 69): False, ('dense_1', 70): False, ('dense_1', 71): False, ('dense_1', 72): False, ('dense_1', 73): False, ('dense_1', 74): False, ('dense_1', 75): False, ('dense_1', 76): False, ('dense_1', 77): False, ('dense_1', 78): False, ('dense_1', 79): False, ('dense_1', 80): False, ('dense_1', 81): False, ('dense_1', 82): False, ('dense_1', 83): False, ('dense_1', 84): False, ('dense_1', 85): False, ('dense_1', 86): False, ('dense_1', 87): False, ('dense_1', 88): False, ('dense_1', 89): False, ('dense_1', 90): False, ('dense_1', 91): False, ('dense_1', 92): False, ('dense_1', 93): False, ('dense_1', 94): False, ('dense_1', 95): False, ('dense_1', 96): False, ('dense_1', 97): False, ('dense_1', 98): False, ('dense_1', 99): False, ('dense_1', 100): False, ('dense_1', 101): False, ('dense_1', 102): False, ('dense_1', 103): False, ('dense_1', 104): False, ('dense_1', 105): False, ('dense_1', 106): False, ('dense_1', 107): False, ('dense_1', 108): False, ('dense_1', 109): False, ('dense_1', 110): False, ('dense_1', 111): False, ('dense_1', 112): False, ('dense_1', 113): False, ('dense_1', 114): False, ('dense_1', 115): False, ('dense_1', 116): False, ('dense_1', 117): False, ('dense_1', 118): False, ('dense_1', 119): False, ('dense_2', 0): False, ('dense_2', 1): False, ('dense_2', 2): False, ('dense_2', 3): False, ('dense_2', 4): False, ('dense_2', 5): False, ('dense_2', 6): False, ('dense_2', 7): False, ('dense_2', 8): False, ('dense_2', 9): False, ('dense_2', 10): False, ('dense_2', 11): False, ('dense_2', 12): False, ('dense_2', 13): False, ('dense_2', 14): False, ('dense_2', 15): False, ('dense_2', 16): False, ('dense_2', 17): False, ('dense_2', 18): False, ('dense_2', 19): False, ('dense_2', 20): False, ('dense_2', 21): False, ('dense_2', 22): False, ('dense_2', 23): False, ('dense_2', 24): False, ('dense_2', 25): False, ('dense_2', 26): False, ('dense_2', 27): False, ('dense_2', 28): False, ('dense_2', 29): False, ('dense_2', 30): False, ('dense_2', 31): False, ('dense_2', 32): False, ('dense_2', 33): False, ('dense_2', 34): False, ('dense_2', 35): False, ('dense_2', 36): False, ('dense_2', 37): False, ('dense_2', 38): False, ('dense_2', 39): False, ('dense_2', 40): False, ('dense_2', 41): False, ('dense_2', 42): False, ('dense_2', 43): False, ('dense_2', 44): False, ('dense_2', 45): False, ('dense_2', 46): False, ('dense_2', 47): False, ('dense_2', 48): False, ('dense_2', 49): False, ('dense_2', 50): False, ('dense_2', 51): False, ('dense_2', 52): False, ('dense_2', 53): False, ('dense_2', 54): False, ('dense_2', 55): False, ('dense_2', 56): False, ('dense_2', 57): False, ('dense_2', 58): False, ('dense_2', 59): False, ('dense_2', 60): False, ('dense_2', 61): False, ('dense_2', 62): False, ('dense_2', 63): False, ('dense_2', 64): False, ('dense_2', 65): False, ('dense_2', 66): False, ('dense_2', 67): False, ('dense_2', 68): False, ('dense_2', 69): False, ('dense_2', 70): False, ('dense_2', 71): False, ('dense_2', 72): False, ('dense_2', 73): False, ('dense_2', 74): False, ('dense_2', 75): False, ('dense_2', 76): False, ('dense_2', 77): False, ('dense_2', 78): False, ('dense_2', 79): False, ('dense_2', 80): False, ('dense_2', 81): False, ('dense_2', 82): False, ('dense_2', 83): False, ('dense_3', 0): False, ('dense_3', 1): False, ('dense_3', 2): False, ('dense_3', 3): False, ('dense_3', 4): False, ('dense_3', 5): False, ('dense_3', 6): False, ('dense_3', 7): False, ('dense_3', 8): False, ('dense_3', 9): False, ('activation_1', 0): False, ('activation_1', 1): False, ('activation_1', 2): False, ('activation_1', 3): False, ('activation_1', 4): False, ('activation_1', 5): False, ('activation_1', 6): False, ('activation_1', 7): False, ('activation_1', 8): False, ('activation_1', 9): False})-------------------
+*****Running VAE+Baseline test....
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_1:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_9:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_4:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_17:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_8:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_25:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_12:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_33:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_16:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_41:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_20:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_49:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_24:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_57:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_28:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_65:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_32:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_73:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_36:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_81:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_40:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_89:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_44:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_97:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_48:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_105:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_52:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_113:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_56:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_121:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_60:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_129:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_64:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_137:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_68:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_145:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_72:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_153:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_76:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_161:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_80:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_169:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_84:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_177:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_88:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_185:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_92:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_193:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_96:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_201:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_100:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_209:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_104:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_217:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_108:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_225:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_112:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_233:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_116:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_241:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_120:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_249:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_124:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_257:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_128:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_265:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_132:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_273:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_136:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_281:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_140:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_289:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_144:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_297:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_148:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_305:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_152:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_313:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_156:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_321:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_160:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_329:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_164:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_337:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_168:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_345:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_172:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_353:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_176:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_361:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_180:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_369:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_184:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_377:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_188:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_385:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_192:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_393:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_196:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_401:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_200:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_409:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_204:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_417:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_208:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_425:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_212:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_433:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_216:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_441:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_220:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_449:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_224:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_457:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_228:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_465:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_232:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_473:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_236:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_481:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_240:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_489:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_244:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_497:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_248:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_505:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_252:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_513:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_256:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_521:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_260:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_529:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_264:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_537:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_268:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_545:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_272:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_553:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_276:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_561:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_280:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_569:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_284:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_577:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_288:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_585:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_292:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_593:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_296:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_601:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_300:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_609:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_304:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_617:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_308:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_625:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_312:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_633:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_316:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_641:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_320:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_649:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_324:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_657:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_328:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_665:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_332:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_673:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_336:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_681:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_340:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_689:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_344:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_697:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_348:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_705:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_352:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_713:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_356:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_721:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_360:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_729:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_364:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_737:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_368:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_745:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_372:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_753:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_376:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_761:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_380:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_769:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_384:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_777:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_388:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_785:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_392:0", shape=(), dtype=float32)-------------------
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_793:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul_396:0", shape=(), dtype=float32)-------------------
+
+
+
+*****Running VAE+Baseline test....
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_1:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul:0", shape=(), dtype=float32)-------------------
+
+
+
+*****Running VAE+Baseline test....
+----------------layer_name3 <class 'str'>-------------------
+---------------loss2: Tensor("Mean_1:0", shape=(), dtype=float32)-------------------
+---------------loss3: Tensor("Mul:0", shape=(), dtype=float32)-------------------
+
+
+
+*****Running VAE+Baseline test....
+
+
+
+*****Running VAE+Baseline test....
+
+
+
+*****Running VAE+Baseline test....
+loss 2 Tensor("Mean_1:0", shape=(), dtype=float32)
+loss 3 Tensor("Mul:0", shape=(), dtype=float32)
+
+
+
+*****Running VAE+Baseline test....
+loss 2 Tensor("Mean_1:0", shape=(), dtype=float32)
+loss 3 Tensor("Mul:0", shape=(), dtype=float32)
+loss 2 Tensor("Mean_9:0", shape=(), dtype=float32)
+loss 3 Tensor("Mul_4:0", shape=(), dtype=float32)
+loss 2 Tensor("Mean_17:0", shape=(), dtype=float32)
+loss 3 Tensor("Mul_8:0", shape=(), dtype=float32)
+loss 2 Tensor("Mean_25:0", shape=(), dtype=float32)
+loss 3 Tensor("Mul_12:0", shape=(), dtype=float32)
+loss 2 Tensor("Mean_33:0", shape=(), dtype=float32)
+loss 3 Tensor("Mul_16:0", shape=(), dtype=float32)
+loss 2 Tensor("Mean_41:0", shape=(), dtype=float32)
+loss 3 Tensor("Mul_20:0", shape=(), dtype=float32)
+loss 2 Tensor("Mean_49:0", shape=(), dtype=float32)
+loss 3 Tensor("Mul_24:0", shape=(), dtype=float32)
